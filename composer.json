@@ -18,7 +18,7 @@
             "Abinash\\IfscValidator\\IFSCValidatorServiceProvider"
         ],
         "aliases": {
-            "IFSC": "Abinash\\IfscValidator\\Facades\\IFSCValidator"
+            "IFSC": "Abinash\\IfscValidator\\Facades\\IFSC"
         }
     }
 },
