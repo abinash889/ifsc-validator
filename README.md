@@ -57,7 +57,7 @@ This package is open-source software licensed under the [MIT license](LICENSE).
 **Abinash Bhatta**  
 📧 [abinash889@gmail.com](mailto:abinash889@gmail.com)  
 📞 +91 7978995314  
-🚀 Follow me on GitHub: [Abinash](https://github.com/abinash)
+🚀 Follow me on GitHub: [Abinash](https://github.com/abinash889)
 
 ---
 
