@@ -1,0 +1,22 @@
+{
+    "name": "abinash/ifsc-validator",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.9",
+        "illuminate/support": "^12.0",
+        "intervention/image": "^2.7"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Abinash\\IfscValidator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abinash",
+            "email": "abinash889@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
