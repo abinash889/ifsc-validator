@@ -1,7 +1,8 @@
 # Laravel IFSC Validator
 
 [![Latest Version](https://img.shields.io/packagist/v/abinash/ifsc-validator.svg?style=flat-square)](https://packagist.org/packages/abinash/ifsc-validator)
-[![License](https://img.shields.io/github/license/abinash/ifsc-validator.svg?style=flat-square)](LICENSE)
+[![License](https://img.shields.io/github/license/abinash889/ifsc-validator.svg?style=flat-square)](LICENSE)
+
 
 ## 📌 Introduction
 **Laravel IFSC Validator** is a simple package that allows you to fetch details of an Indian bank IFSC code using Razorpay's IFSC API. 
