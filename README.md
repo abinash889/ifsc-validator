@@ -22,19 +22,19 @@ php artisan vendor:publish --tag=ifsc-validator-config
 ## 🔧 Usage
 ### **Using the Facade**
 ```php
-use Abinash\IFSCValidator\Facades\IFSCValidator;
+use IFSC;
 
-$ifscDetails = IFSCValidator::get('SBIN0007500');
+$ifscDetails = IFSC::getBankDetails('SBIN0007500');
 print_r($ifscDetails);
 ```
 
 ### **Using Dependency Injection**
 ```php
-use Abinash\IFSCValidator\IFSCService;
+use Abinash\IFSCValidator\Services\IFSCService;
 
 class BankController {
     public function getIFSC(IFSCService $ifscService) {
-        return $ifscService->get('SBIN0007500');
+        return $ifscService->getBankDetails('SBIN0007500');
     }
 }
 ```
