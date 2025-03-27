@@ -15,9 +15,19 @@ composer require abinash/ifsc-validator
 ```
 
 ### **📌 Publish Configuration (Optional)**
+Edit your app/config/app.php and add the Service Provider
 ```sh
-php artisan vendor:publish --tag=ifsc-validator-config
+'providers' => [
+    // Other service providers...
+    Abinash\IFSCValidator\IFSCValidatorServiceProvider::class,
+],
 ```
+```sh
+ 'aliases' => [
+    'IFSC' => Abinash\IFSCValidator\Facades\IFSC::class,
+]
+```
+
 
 ## 🔧 Usage
 ### **Using the Facade**
@@ -42,13 +52,6 @@ class BankController {
 ## 🔗 API Source
 This package uses the free [Razorpay IFSC API](https://ifsc.razorpay.com/) to fetch bank details.
 
-## 🛠 Configuration
-You can customize the API base URL in the `config/ifsc_validator.php` file:
-```php
-return [
-    'api_url' => 'https://ifsc.razorpay.com/',
-];
-```
 
 ## 🏷 License
 This package is open-source software licensed under the [MIT license](LICENSE).
@@ -56,7 +59,6 @@ This package is open-source software licensed under the [MIT license](LICENSE).
 ## 👤 Author
 **Abinash Bhatta**  
 📧 [abinash889@gmail.com](mailto:abinash889@gmail.com)  
-📞 +91 7978995314  
 🚀 Follow me on GitHub: [Abinash](https://github.com/abinash889)
 
 ---
