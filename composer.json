@@ -9,16 +9,16 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Abinash\\IfscValidator\\": "src/"
+            "Abinash\\IFSCValidator\\": "src/"
         }
     },
     "extra": {
     "laravel": {
         "providers": [
-            "Abinash\\IfscValidator\\IFSCValidatorServiceProvider"
+            "Abinash\\IFSCValidator\\IFSCValidatorServiceProvider"
         ],
         "aliases": {
-            "IFSC": "Abinash\\IfscValidator\\Facades\\IFSC"
+            "IFSC": "Abinash\\IFSCValidator\\Facades\\IFSC"
         }
     }
 },

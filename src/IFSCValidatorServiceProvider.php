@@ -1,6 +1,6 @@
 <?php
 
-namespace Abinash\IfscValidator;
+namespace Abinash\IFSCValidator;
 
 
 use Illuminate\Support\ServiceProvider;
