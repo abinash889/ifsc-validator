@@ -1,32 +1,34 @@
 {
-    "name": "abinash/ifsc-validator",
-    "type": "library",
-    "require": {
-        "guzzlehttp/guzzle": "^7.9",
-        "illuminate/support": "^8.0 || ^9.0 || ^10.0 || ^11.0 || ^12.0",
-        "intervention/image": "^2.7"
-    },
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Abinash\\IFSCValidator\\": "src/"
-        }
-    },
-    "extra": {
-    "laravel": {
-        "providers": [
-            "Abinash\\IFSCValidator\\IFSCValidatorServiceProvider"
-        ],
-        "aliases": {
-            "IFSC": "Abinash\\IFSCValidator\\Facades\\IFSC"
-        }
+  "name": "abinash/ifsc-validator",
+  "type": "library",
+  "require": {
+    "guzzlehttp/guzzle": "^7.9",
+    "illuminate/support": "^8.0 || ^9.0 || ^10.0 || ^11.0 || ^12.0"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Abinash\\IFSCValidator\\": "src/"
     }
-},
-    "authors": [
-        {
-            "name": "Abinash",
-            "email": "abinash889@gmail.com"
-        }
-    ],
-    "minimum-stability": "stable"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Abinash\\IFSCValidator\\IFSCValidatorServiceProvider"
+      ],
+      "aliases": {
+        "IFSC": "Abinash\\IFSCValidator\\Facades\\IFSC"
+      }
+    }
+  },
+  "scripts": {
+    "post-autoload-dump": []
+  },
+  "authors": [
+    {
+      "name": "Abinash",
+      "email": "abinash889@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable"
 }

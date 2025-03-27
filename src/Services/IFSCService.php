@@ -3,10 +3,16 @@
 namespace Abinash\IFSCValidator\Services;
 
 use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Config;
 
 class IFSCService
 {
-    private $apiUrl = "https://ifsc.razorpay.com/";
+    private $apiUrl;
+
+    public function __construct()
+    {
+        $this->apiUrl = Config::get('ifsc.api_url', 'https://ifsc.razorpay.com/');
+    }
 
     public function getBankDetails($ifsc)
     {

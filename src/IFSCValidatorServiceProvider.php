@@ -9,6 +9,8 @@ class IFSCValidatorServiceProvider extends ServiceProvider
 {
     public function register()
     {
+        $this->mergeConfigFrom(__DIR__ . '/../config/ifsc.php', 'ifsc');
+
         $this->app->bind('ifsc', function () {
             return new Services\IFSCService();
         });
@@ -21,5 +23,8 @@ class IFSCValidatorServiceProvider extends ServiceProvider
 
     public function boot()
     {
+        $this->publishes([
+            __DIR__ . '/../config/ifsc.php' => config_path('ifsc.php'),
+        ], 'config');
     }
 }

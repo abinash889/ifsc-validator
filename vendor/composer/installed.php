@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'abinash/ifsc-validator',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '81667c93ec864a70bb4d83b0c42e7c5f08b2e01c',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'abinash/ifsc-validator' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '81667c93ec864a70bb4d83b0c42e7c5f08b2e01c',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -106,15 +106,6 @@
             'reference' => 'bcba98dcdbc758261b3b872a9b9dc789aed1eb57',
             'type' => 'library',
             'install_path' => __DIR__ . '/../illuminate/support',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
-        'intervention/image' => array(
-            'pretty_version' => '2.7.2',
-            'version' => '2.7.2.0',
-            'reference' => '04be355f8d6734c826045d02a1079ad658322dad',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../intervention/image',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
